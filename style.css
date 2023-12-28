@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(50, 50, 50);
+    font-family: 'Poppins', sans-serif;font-family: 'Poppins', sans-serif;
+}
+
+/* container */
+
+.container{
+    width: 1010px;
+    margin: auto;
+}
+
+/* photo */
+
+.photo img{
+    width: 1000px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 50px 0px black;
+    margin-top: 50px;
+}
+
+/* controler */
+
+.controler {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+}
+.controler .next button{
+    background-color: rgb(201, 201, 201);
+    width: 50px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.controler .next button i{
+    font-size: 20px;
+    
+}
+.controler .next :hover{
+    background-color: rgb(136, 136, 136);
+    
+}
+.controler .back button{
+    background-color: rgb(201, 201, 201);
+
+    width: 50px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.controler .back button i{
+    font-size: 20px;
+    
+}
+.controler .back :hover{
+    background-color: rgb(136, 136, 136);
+
+    
+}
+
+/* text in controler  */
+
+.controler .text h1{
+    color: white;
+    font-size: 42px;
+    opacity: 0.7;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 600px){
+
+    .container{
+        width: 350px;
+        
+        
+    }
+
+    .photo img{
+        width: 325px;
+        margin-top: 150px;
+        margin-left: 7.5px
+        
+    }
+
+    .controler {
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        margin-top:25px;
+    }
+
+    .controler .next button{
+        width: 45px;
+        height:30px;
+       
+    }
+    .controler .back button{
+        width: 45px;
+        height:30px;
+        
+    }
+    .controler .next button i{
+        font-size: 15px;
+        
+        
+    }
+
+    .controler .back button i{
+        font-size: 15px;
+        
+    }
+
+    .controler .text h1{
+        color: white;
+        font-size: 26px;
+        opacity: 0.7;
+    }
+
+}
